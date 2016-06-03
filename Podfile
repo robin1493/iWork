@@ -4,15 +4,17 @@ use_frameworks!
 
 def common_pods
 
-pod 'Restofire'
-
 end
 
 
 target 'iWork' do
+    pod 'Restofire'
+    pod 'Realm'
     common_pods
 end
 
 target 'iWorkTests' do
+    pod 'Quick'
+    pod 'Nimble'
     common_pods
 end
