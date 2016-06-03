@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354F07CF1D015D3F005CDC40 /* iWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F07CE1D015D3F005CDC40 /* iWorkTests.swift */; };
 		3582A8521D01436E00ED3A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582A8511D01436E00ED3A7A /* AppDelegate.swift */; };
 		3582A8541D01436E00ED3A7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582A8531D01436E00ED3A7A /* ViewController.swift */; };
 		3582A8571D01436E00ED3A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3582A8551D01436E00ED3A7A /* Main.storyboard */; };
@@ -14,7 +15,20 @@
 		3582A85C1D01436E00ED3A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3582A85A1D01436E00ED3A7A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		354F07D11D015D3F005CDC40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3582A8461D01436E00ED3A7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3582A84D1D01436E00ED3A7A;
+			remoteInfo = iWork;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		354F07CC1D015D3F005CDC40 /* iWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		354F07CE1D015D3F005CDC40 /* iWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWorkTests.swift; sourceTree = "<group>"; };
+		354F07D01D015D3F005CDC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3582A84E1D01436E00ED3A7A /* iWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3582A8511D01436E00ED3A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3582A8531D01436E00ED3A7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		354F07C91D015D3F005CDC40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3582A84B1D01436E00ED3A7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +56,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		354F07CD1D015D3F005CDC40 /* iWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				354F07CE1D015D3F005CDC40 /* iWorkTests.swift */,
+				354F07D01D015D3F005CDC40 /* Info.plist */,
+			);
+			path = iWorkTests;
+			sourceTree = "<group>";
+		};
 		3582A8451D01436E00ED3A7A = {
 			isa = PBXGroup;
 			children = (
 				3582A8501D01436E00ED3A7A /* iWork */,
+				354F07CD1D015D3F005CDC40 /* iWorkTests */,
 				3582A84F1D01436E00ED3A7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3582A84E1D01436E00ED3A7A /* iWork.app */,
+				354F07CC1D015D3F005CDC40 /* iWorkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +99,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		354F07CB1D015D3F005CDC40 /* iWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354F07D51D015D3F005CDC40 /* Build configuration list for PBXNativeTarget "iWorkTests" */;
+			buildPhases = (
+				354F07C81D015D3F005CDC40 /* Sources */,
+				354F07C91D015D3F005CDC40 /* Frameworks */,
+				354F07CA1D015D3F005CDC40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354F07D21D015D3F005CDC40 /* PBXTargetDependency */,
+			);
+			name = iWorkTests;
+			productName = iWorkTests;
+			productReference = 354F07CC1D015D3F005CDC40 /* iWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3582A84D1D01436E00ED3A7A /* iWork */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3582A8601D01436E00ED3A7A /* Build configuration list for PBXNativeTarget "iWork" */;
@@ -94,6 +144,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Rahul Katariya";
 				TargetAttributes = {
+					354F07CB1D015D3F005CDC40 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3582A84D1D01436E00ED3A7A;
+					};
 					3582A84D1D01436E00ED3A7A = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -113,11 +167,19 @@
 			projectRoot = "";
 			targets = (
 				3582A84D1D01436E00ED3A7A /* iWork */,
+				354F07CB1D015D3F005CDC40 /* iWorkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		354F07CA1D015D3F005CDC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3582A84C1D01436E00ED3A7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,6 +193,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		354F07C81D015D3F005CDC40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354F07CF1D015D3F005CDC40 /* iWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3582A84A1D01436E00ED3A7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +211,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		354F07D21D015D3F005CDC40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3582A84D1D01436E00ED3A7A /* iWork */;
+			targetProxy = 354F07D11D015D3F005CDC40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3582A8551D01436E00ED3A7A /* Main.storyboard */ = {
@@ -162,6 +240,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		354F07D31D015D3F005CDC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulkatariya.iWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWork.app/iWork";
+			};
+			name = Debug;
+		};
+		354F07D41D015D3F005CDC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulkatariya.iWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWork.app/iWork";
+			};
+			name = Release;
+		};
 		3582A85E1D01436E00ED3A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -270,6 +372,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		354F07D51D015D3F005CDC40 /* Build configuration list for PBXNativeTarget "iWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354F07D31D015D3F005CDC40 /* Debug */,
+				354F07D41D015D3F005CDC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		3582A8491D01436E00ED3A7A /* Build configuration list for PBXProject "iWork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -286,6 +396,7 @@
 				3582A8621D01436E00ED3A7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
