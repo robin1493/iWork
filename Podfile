@@ -9,7 +9,7 @@ end
 
 target 'iWork' do
     pod 'Restofire'
-    pod 'Realm'
+    pod 'RealmSwift'
     common_pods
 end
 
