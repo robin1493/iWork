@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		27A497995057C61E99C82237 /* Pods_iWorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94944296B5C97756880A3351 /* Pods_iWorkTests.framework */; };
 		354F07CF1D015D3F005CDC40 /* iWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F07CE1D015D3F005CDC40 /* iWorkTests.swift */; };
-		3582A8521D01436E00ED3A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582A8511D01436E00ED3A7A /* AppDelegate.swift */; };
-		3582A8541D01436E00ED3A7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582A8531D01436E00ED3A7A /* ViewController.swift */; };
+		3582518A1D0431400013012D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358251891D0431400013012D /* AppDelegate.swift */; };
 		3582A8571D01436E00ED3A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3582A8551D01436E00ED3A7A /* Main.storyboard */; };
 		3582A8591D01436E00ED3A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3582A8581D01436E00ED3A7A /* Assets.xcassets */; };
 		3582A85C1D01436E00ED3A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3582A85A1D01436E00ED3A7A /* LaunchScreen.storyboard */; };
+		35CE61541D05579E00C92C14 /* AppDelegate+Restofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE61501D05579E00C92C14 /* AppDelegate+Restofire.swift */; };
+		35CE61551D05579E00C92C14 /* ReposService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE61531D05579E00C92C14 /* ReposService+GET.swift */; };
+		35CE621E1D0573EC00C92C14 /* GithubLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE621B1D0573EC00C92C14 /* GithubLoginViewController.swift */; };
+		35CE621F1D0573EC00C92C14 /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE621D1D0573EC00C92C14 /* ReposTableViewController.swift */; };
 		D25CF19B33846187B3AE96F7 /* Pods_iWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7291D3F617BF73B1578CDDA /* Pods_iWork.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,13 +35,16 @@
 		354F07CC1D015D3F005CDC40 /* iWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		354F07CE1D015D3F005CDC40 /* iWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWorkTests.swift; sourceTree = "<group>"; };
 		354F07D01D015D3F005CDC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358251891D0431400013012D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = iWork/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		3582A84E1D01436E00ED3A7A /* iWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3582A8511D01436E00ED3A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		3582A8531D01436E00ED3A7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3582A8561D01436E00ED3A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3582A8581D01436E00ED3A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3582A85B1D01436E00ED3A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3582A85D1D01436E00ED3A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CE61501D05579E00C92C14 /* AppDelegate+Restofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Restofire.swift"; sourceTree = "<group>"; };
+		35CE61531D05579E00C92C14 /* ReposService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReposService+GET.swift"; sourceTree = "<group>"; };
+		35CE621B1D0573EC00C92C14 /* GithubLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubLoginViewController.swift; sourceTree = "<group>"; };
+		35CE621D1D0573EC00C92C14 /* ReposTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewController.swift; sourceTree = "<group>"; };
 		78C59AE5A3DF794E195B30AB /* Pods-iWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWorkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWorkTests/Pods-iWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DF976809B459CB1817281F4 /* Pods-iWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWorkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iWorkTests/Pods-iWorkTests.release.xcconfig"; sourceTree = "<group>"; };
 		94944296B5C97756880A3351 /* Pods_iWorkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWorkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,9 +104,10 @@
 		3582A8501D01436E00ED3A7A /* iWork */ = {
 			isa = PBXGroup;
 			children = (
-				35E467741D0169C300CD3E20 /* Application */,
-				3582A8531D01436E00ED3A7A /* ViewController.swift */,
+				35CE614F1D05579E00C92C14 /* Application */,
 				3582A8551D01436E00ED3A7A /* Main.storyboard */,
+				35CE62091D056CFE00C92C14 /* Modules */,
+				35CE61511D05579E00C92C14 /* Services */,
 				3582A8581D01436E00ED3A7A /* Assets.xcassets */,
 				3582A85A1D01436E00ED3A7A /* LaunchScreen.storyboard */,
 				3582A85D1D01436E00ED3A7A /* Info.plist */,
@@ -108,12 +115,54 @@
 			path = iWork;
 			sourceTree = "<group>";
 		};
-		35E467741D0169C300CD3E20 /* Application */ = {
+		35CE614F1D05579E00C92C14 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				3582A8511D01436E00ED3A7A /* AppDelegate.swift */,
+				358251891D0431400013012D /* AppDelegate.swift */,
+				35CE61501D05579E00C92C14 /* AppDelegate+Restofire.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		35CE61511D05579E00C92C14 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				35CE61521D05579E00C92C14 /* Repos */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		35CE61521D05579E00C92C14 /* Repos */ = {
+			isa = PBXGroup;
+			children = (
+				35CE61531D05579E00C92C14 /* ReposService+GET.swift */,
+			);
+			path = Repos;
+			sourceTree = "<group>";
+		};
+		35CE62091D056CFE00C92C14 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				35CE621A1D0573EC00C92C14 /* GithubLogin */,
+				35CE621C1D0573EC00C92C14 /* Repos */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		35CE621A1D0573EC00C92C14 /* GithubLogin */ = {
+			isa = PBXGroup;
+			children = (
+				35CE621B1D0573EC00C92C14 /* GithubLoginViewController.swift */,
+			);
+			path = GithubLogin;
+			sourceTree = "<group>";
+		};
+		35CE621C1D0573EC00C92C14 /* Repos */ = {
+			isa = PBXGroup;
+			children = (
+				35CE621D1D0573EC00C92C14 /* ReposTableViewController.swift */,
+			);
+			path = Repos;
 			sourceTree = "<group>";
 		};
 		485B518D0FBF06A40A15EA1D /* Pods */ = {
@@ -344,8 +393,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3582A8541D01436E00ED3A7A /* ViewController.swift in Sources */,
-				3582A8521D01436E00ED3A7A /* AppDelegate.swift in Sources */,
+				35CE61541D05579E00C92C14 /* AppDelegate+Restofire.swift in Sources */,
+				3582518A1D0431400013012D /* AppDelegate.swift in Sources */,
+				35CE61551D05579E00C92C14 /* ReposService+GET.swift in Sources */,
+				35CE621E1D0573EC00C92C14 /* GithubLoginViewController.swift in Sources */,
+				35CE621F1D0573EC00C92C14 /* ReposTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,9 @@ end
 target 'iWork' do
     pod 'Restofire'
     pod 'RealmSwift'
+    pod 'RxCocoa'
+    pod 'OAuthSwift'
+    pod 'StatefulViewController'
     common_pods
 end
 
