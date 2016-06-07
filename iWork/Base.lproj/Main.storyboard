@@ -9,28 +9,8 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="GithubLoginViewController" customModule="iWork" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEi-cb-Zr0">
-                                <rect key="frame" x="228" y="285" width="144" height="30"/>
-                                <state key="normal" title="Connect With Github"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="FEi-cb-Zr0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="P4a-lF-SlS"/>
-                            <constraint firstItem="FEi-cb-Zr0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WXt-gY-xfY"/>
-                        </constraints>
-                    </view>
                     <navigationItem key="navigationItem" id="6uR-Vi-wj8"/>
                     <connections>
-                        <outlet property="githubLoginButton" destination="FEi-cb-Zr0" id="BcN-9j-UDp"/>
                         <segue destination="GwN-72-Qtg" kind="show" identifier="ReposSegue" id="bKx-e9-IVL"/>
                     </connections>
                 </viewController>
@@ -41,27 +21,7 @@
         <!--Repos Table View Controller-->
         <scene sceneID="Y8i-bI-ktD">
             <objects>
-                <tableViewController id="GwN-72-Qtg" customClass="ReposTableViewController" customModule="iWork" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1BI-VX-bso">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="FaF-Xz-JGA">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FaF-Xz-JGA" id="DQx-p2-BYp">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="GwN-72-Qtg" id="Euk-qh-c1A"/>
-                            <outlet property="delegate" destination="GwN-72-Qtg" id="Gjj-Ub-oAZ"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
+                <tableViewController id="GwN-72-Qtg" customClass="ReposTableViewController" customModule="iWork" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1GY-Yu-SfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1816" y="335"/>

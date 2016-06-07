@@ -16,8 +16,12 @@ class GithubLoginViewController: UIViewController {
 //    let viewModel = GithubLoginViewModel()
 
     //Properties
-    @IBOutlet weak var githubLogoImageView: UIImageView!
-    @IBOutlet weak var githubLoginButton: UIButton!
+    var githubLoginView: GithubLoginView!
+    
+    override func loadView() {
+        githubLoginView = NSBundle.mainBundle().loadNibNamed("GithubLoginView", owner: self, options: nil)[0] as! GithubLoginView
+        view = githubLoginView
+    }
 
     /*override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +41,7 @@ extension GithubLoginViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        githubLoginButton.addTarget(self, action: #selector(loginWithGithub(_:)), forControlEvents: .TouchUpInside)
+        githubLoginView.githubLoginButton.addTarget(self, action: #selector(loginWithGithub(_:)), forControlEvents: .TouchUpInside)
     }
     
     func loginWithGithub(sender: AnyObject?) {

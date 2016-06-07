@@ -17,6 +17,12 @@
 		35CE61551D05579E00C92C14 /* ReposService+GET.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE61531D05579E00C92C14 /* ReposService+GET.swift */; };
 		35CE621E1D0573EC00C92C14 /* GithubLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE621B1D0573EC00C92C14 /* GithubLoginViewController.swift */; };
 		35CE621F1D0573EC00C92C14 /* ReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE621D1D0573EC00C92C14 /* ReposTableViewController.swift */; };
+		35CE62211D05AD1400C92C14 /* GithubLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE62201D05AD1400C92C14 /* GithubLoginView.swift */; };
+		35CE62231D067A0800C92C14 /* GithubLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE62221D067A0800C92C14 /* GithubLoginViewModel.swift */; };
+		35CE62251D067A8900C92C14 /* GithubLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CE62241D067A8900C92C14 /* GithubLoginView.xib */; };
+		35CE62271D06842700C92C14 /* ReposTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CE62261D06842700C92C14 /* ReposTableView.xib */; };
+		35CE62291D06843600C92C14 /* ReposTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE62281D06843600C92C14 /* ReposTableView.swift */; };
+		35CE622B1D06845000C92C14 /* ReposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE622A1D06845000C92C14 /* ReposViewModel.swift */; };
 		D25CF19B33846187B3AE96F7 /* Pods_iWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7291D3F617BF73B1578CDDA /* Pods_iWork.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +51,12 @@
 		35CE61531D05579E00C92C14 /* ReposService+GET.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReposService+GET.swift"; sourceTree = "<group>"; };
 		35CE621B1D0573EC00C92C14 /* GithubLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubLoginViewController.swift; sourceTree = "<group>"; };
 		35CE621D1D0573EC00C92C14 /* ReposTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewController.swift; sourceTree = "<group>"; };
+		35CE62201D05AD1400C92C14 /* GithubLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubLoginView.swift; sourceTree = "<group>"; };
+		35CE62221D067A0800C92C14 /* GithubLoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubLoginViewModel.swift; sourceTree = "<group>"; };
+		35CE62241D067A8900C92C14 /* GithubLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithubLoginView.xib; sourceTree = "<group>"; };
+		35CE62261D06842700C92C14 /* ReposTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReposTableView.xib; sourceTree = "<group>"; };
+		35CE62281D06843600C92C14 /* ReposTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableView.swift; sourceTree = "<group>"; };
+		35CE622A1D06845000C92C14 /* ReposViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposViewModel.swift; sourceTree = "<group>"; };
 		78C59AE5A3DF794E195B30AB /* Pods-iWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWorkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWorkTests/Pods-iWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DF976809B459CB1817281F4 /* Pods-iWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWorkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iWorkTests/Pods-iWorkTests.release.xcconfig"; sourceTree = "<group>"; };
 		94944296B5C97756880A3351 /* Pods_iWorkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iWorkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +165,9 @@
 			isa = PBXGroup;
 			children = (
 				35CE621B1D0573EC00C92C14 /* GithubLoginViewController.swift */,
+				35CE62201D05AD1400C92C14 /* GithubLoginView.swift */,
+				35CE62221D067A0800C92C14 /* GithubLoginViewModel.swift */,
+				35CE62241D067A8900C92C14 /* GithubLoginView.xib */,
 			);
 			path = GithubLogin;
 			sourceTree = "<group>";
@@ -161,6 +176,9 @@
 			isa = PBXGroup;
 			children = (
 				35CE621D1D0573EC00C92C14 /* ReposTableViewController.swift */,
+				35CE62281D06843600C92C14 /* ReposTableView.swift */,
+				35CE622A1D06845000C92C14 /* ReposViewModel.swift */,
+				35CE62261D06842700C92C14 /* ReposTableView.xib */,
 			);
 			path = Repos;
 			sourceTree = "<group>";
@@ -280,8 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3582A85C1D01436E00ED3A7A /* LaunchScreen.storyboard in Resources */,
+				35CE62271D06842700C92C14 /* ReposTableView.xib in Resources */,
 				3582A8591D01436E00ED3A7A /* Assets.xcassets in Resources */,
 				3582A8571D01436E00ED3A7A /* Main.storyboard in Resources */,
+				35CE62251D067A8900C92C14 /* GithubLoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +414,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CE61541D05579E00C92C14 /* AppDelegate+Restofire.swift in Sources */,
+				35CE62231D067A0800C92C14 /* GithubLoginViewModel.swift in Sources */,
+				35CE62211D05AD1400C92C14 /* GithubLoginView.swift in Sources */,
+				35CE62291D06843600C92C14 /* ReposTableView.swift in Sources */,
 				3582518A1D0431400013012D /* AppDelegate.swift in Sources */,
+				35CE622B1D06845000C92C14 /* ReposViewModel.swift in Sources */,
 				35CE61551D05579E00C92C14 /* ReposService+GET.swift in Sources */,
 				35CE621E1D0573EC00C92C14 /* GithubLoginViewController.swift in Sources */,
 				35CE621F1D0573EC00C92C14 /* ReposTableViewController.swift in Sources */,

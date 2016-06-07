@@ -15,6 +15,14 @@ class ReposTableViewController: UITableViewController {
     //ViewModel
 //    let viewModel = ReposViewModel()
 
+    //Properties
+    var reposTableView: ReposTableView!
+    
+    override func loadView() {
+        reposTableView = NSBundle.mainBundle().loadNibNamed("ReposTableView", owner: self, options: nil)[0] as! ReposTableView
+        view = reposTableView
+    }
+
     /*override func viewDidLoad() {
         super.viewDidLoad()
 
